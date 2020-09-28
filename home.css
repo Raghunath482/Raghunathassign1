@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+    body{
+    background-image:url(images/welfare.jpg) ;
+    height: 200vh;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+@media screen and (min-width:480px)
+{
+    body{
+        background-image:url(images/welfare.jpg) ;
+        background-image:url(images/dog.jpg.jpg) ;
+        height: 200vh;
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+}
+header{
+   background-image:url(images/dog.jpg.jpg) ;
+   height: 200vh;
+   background-size:cover;
+   background-position:center;
+   background-attachment: fixed;
+}
+}
+ul{
+  position:inherit;
+  list-style-type:none;
+  float: right;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:red;
+    transition: 0.5s ease;
+}
+.main{
+    max-width: 90%;
+    margin: auto;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    float:left;
+    position: absolute;
+}
+ul li a:hover{
+    background-color:pink;
+    color:black;
+}
+.title{
+    position: absolute;
+        top:5%;
+        left:40%;
+        transform: translate(-5%,-40%) ;
+}
+.title h1{
+    float: center;
+    color: orangered;
+    font-size: 40px;
+}
+.para1 p1{
+    font-style: oblique;
+    font-size: 2vw;
+    margin-top: 80px;
+    float:left;
+    color:blue
+}
+.para1 p2{
+    font-style: oblique;
+    font-size: 2vw;
+    margin-top: 5px;
+    float:left;
+    color:blue
+}

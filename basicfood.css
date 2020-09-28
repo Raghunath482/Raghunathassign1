@@ -1,0 +1,29 @@
+body{
+    background-image:url(images/welfare.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.title{
+    position: absolute;
+        top:10%;
+        left:5%;
+        transform: translate(-5%,-40%) ;
+}
+.title h1{
+    float: center;
+    color: orangered;
+    font-size: 40px;
+}
+@media screen and (min-width:480px)
+{
+    body{
+        background-image:url(images/welfare.jpg) ;
+        background-image:url(images/dog.jpg.jpg) ;
+        height: 200vh;
+        background-size:cover;
+        background-position:center;
+        background-attachment:fixed;
+    }
+}
